@@ -251,7 +251,7 @@ __pycache__/
 Author
 
 Developed by Abhay Garg
-B.Tech CSE – AI/ML Specialization
+(Pursuing B.Tech CSE – AI/ML)
 
 ---
 
