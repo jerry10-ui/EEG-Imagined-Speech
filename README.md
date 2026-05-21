@@ -1,7 +1,6 @@
 # EEG Imagined Speech Recognition
 
-A deep learning-based system to decode "imagined speech" from EEG signals using "CNN architecture" and an interactive "Streamlit web app" that predicts and speaks the recognized word.
-
+An end-to-end deep learning system for decoding imagined speech from EEG signals using CNNs and a Streamlit-based interactive web application.
 
 ## Overview
 
