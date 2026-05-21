@@ -32,13 +32,13 @@ Project Structure
 ---
 
 ### Dataset Used — *Imagined Speech EEG Dataset*
-https://www.kaggle.com/datasets/ignazio/kumars-eeg-imagined-speech?utm_source=chatgpt.com
+https://www.kaggle.com/datasets/ignazio/kumars-eeg-imagined-speech
 
-* **Dataset Name:** *Imagined Speech EEG Dataset*
+* **Dataset Name:** *Kumar's EEG Imagined speech*
 
 * **Source:** Publicly available dataset (often used in EEG signal classification research).
 
-* **Structure of the project:**
+* **Structure of the dataset:**
 
   ```
   /Imagined_speech_EEG_edf/
