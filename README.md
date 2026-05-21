@@ -248,13 +248,9 @@ __pycache__/
 
 ---
 
-Author
+## Author
 
 Developed by Abhay Garg
 (Pursuing B.Tech CSE – AI/ML)
 
 ---
-
-License
-
-Apache License 2.0
