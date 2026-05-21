@@ -1,4 +1,3 @@
-
 # EEG Imagined Speech Recognition
 
 A deep learning-based system to decode "imagined speech" from EEG signals using "CNN architecture" and an interactive "Streamlit web app" that predicts and speaks the recognized word.
@@ -74,7 +73,7 @@ https://www.kaggle.com/datasets/ignazio/kumars-eeg-imagined-speech
 
 ---
 
-1. Setup Instructions
+### 1. Setup Instructions
 
 ```bash
 # Clone this repository
@@ -93,7 +92,7 @@ pip install -r requirements.txt
 
 ---
 
-2. Requirements
+### 2. Requirements
 
 ```
 numpy
@@ -110,7 +109,7 @@ h5py
 
 ---
 
-3. Base Directory and File Paths
+### 3. Base Directory and File Paths
 
 Each script begins with a "BASE_DIR" variable to define where your files are located.
 
@@ -130,7 +129,7 @@ Y_SEGMENTS_PATH = os.path.join(BASE_DIR, "y_segments.npy")
 
 ---
 
-4. Data Preprocessing Pipeline
+### 4. Data Preprocessing Pipeline
 
 ### Step 1 — Load EEG Files
 
@@ -169,7 +168,7 @@ Displays shape, NaN count, and verifies preprocessing success.
 
 ---
 
-5. Model Training
+### 5. Model Training
 
 ```bash
 python train_model.py
@@ -202,7 +201,7 @@ X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, s
 
 ---
 
-6. Model Evaluation
+### 6. Model Evaluation
 
 ```bash
 python plot_curves.py
@@ -216,7 +215,7 @@ Outputs:
 
 ---
 
-7. Interactive Inference
+### 7. Interactive Inference
 
 ### Streamlit App
 
@@ -234,7 +233,7 @@ If audio doesn’t play automatically, switch between **`gTTS`** and **`pyttsx3`
 
 ---
 
-8. .gitignore Summary
+### 8. .gitignore Summary
 
 All large or temporary files are ignored:
 
