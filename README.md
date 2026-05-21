@@ -250,18 +250,6 @@ __pycache__/
 
 ---
 
-9. Presentation Summary
-
-1. Introduction: EEG-based imagined speech decoding.
-2. Dataset: EEG signals segmented into 39×256 frames.
-3. Preprocessing: NaN handling, normalization, segmentation.
-4. Model: CNN-based classifier for multi-class output.
-5. Results: Accuracy/loss graphs and confusion matrix.
-6. Demo: Streamlit web app for live EEG prediction.
-7. Conclusion: Demonstrates potential in assistive speech technology.
-
----
-
 Author
 
 Developed by Abhay Garg
@@ -269,6 +257,6 @@ B.Tech CSE – AI/ML Specialization
 
 ---
 
-📜 License
+License
 
 Apache License 2.0
