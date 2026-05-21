@@ -23,9 +23,6 @@ This project takes raw EEG '.edf' data, preprocesses it into segments, trains a 
 | `train_model.py` | Builds, trains, and saves the CNN model. |
 | `plot_curves.py` | Plots training accuracy/loss and confusion matrix. |
 | `app.py` | Streamlit web app for uploading `.npy` and predicting. |
-| `.gitignore` | Ignored files and folders. |
-| `requirements.txt` | Python dependencies list. |
-| `README.md` | Complete documentation. |
 
 ---
 
