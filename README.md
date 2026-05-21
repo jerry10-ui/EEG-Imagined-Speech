@@ -1,10 +1,10 @@
 
-# 🧠 EEG Imagined Speech Recognition
+# EEG Imagined Speech Recognition
 
 A deep learning-based system to decode "imagined speech" from EEG signals using "CNN architecture" and an interactive "Streamlit web app" that predicts and speaks the recognized word.
 
 
-📘 Overview
+Overview
 
 This project takes raw EEG '.edf' data, preprocesses it into segments, trains a convolutional neural network (CNN) for classification, and allows interactive predictions through a Streamlit web interface.
 
@@ -14,7 +14,7 @@ This project takes raw EEG '.edf' data, preprocesses it into segments, trains a 
 
 ---
 
-🗂️ Project Structure
+Project Structure
 
 | File | Purpose |
 |------|----------|
@@ -31,7 +31,7 @@ This project takes raw EEG '.edf' data, preprocesses it into segments, trains a 
 
 ---
 
-### 🧠 Dataset Used — *Imagined Speech EEG Dataset*
+### Dataset Used — *Imagined Speech EEG Dataset*
 https://www.kaggle.com/datasets/ignazio/kumars-eeg-imagined-speech?utm_source=chatgpt.com
 
 * **Dataset Name:** *Imagined Speech EEG Dataset*
@@ -74,7 +74,7 @@ https://www.kaggle.com/datasets/ignazio/kumars-eeg-imagined-speech?utm_source=ch
 
 ---
 
-⚙️ 1. Setup Instructions
+1. Setup Instructions
 
 ```bash
 # Clone this repository
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 
 ---
 
-📦 2. Requirements
+2. Requirements
 
 ```
 numpy
@@ -110,7 +110,7 @@ h5py
 
 ---
 
-🧩 3. Base Directory and File Paths
+3. Base Directory and File Paths
 
 Each script begins with a "BASE_DIR" variable to define where your files are located.
 
@@ -126,11 +126,11 @@ X_SEGMENTS_PATH = os.path.join(BASE_DIR, "X_segments.npy")
 Y_SEGMENTS_PATH = os.path.join(BASE_DIR, "y_segments.npy")
 ```
 
-> ✅ Keep all files inside one main folder (like the path above) to simplify this setup.
+> Note: Keep all files inside one main folder (like the path above) to simplify this setup.
 
 ---
 
-🧠 4. Data Preprocessing Pipeline
+4. Data Preprocessing Pipeline
 
 ### Step 1 — Load EEG Files
 
@@ -169,7 +169,7 @@ Displays shape, NaN count, and verifies preprocessing success.
 
 ---
 
-🧮 5. Model Training
+5. Model Training
 
 ```bash
 python train_model.py
@@ -202,7 +202,7 @@ X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, s
 
 ---
 
-📊 6. Model Evaluation
+6. Model Evaluation
 
 ```bash
 python plot_curves.py
@@ -216,7 +216,7 @@ Outputs:
 
 ---
 
-🎙️ 7. Interactive Inference
+7. Interactive Inference
 
 ### Streamlit App
 
@@ -234,7 +234,7 @@ If audio doesn’t play automatically, switch between **`gTTS`** and **`pyttsx3`
 
 ---
 
-🧹 8. .gitignore Summary
+8. .gitignore Summary
 
 All large or temporary files are ignored:
 
@@ -250,7 +250,7 @@ __pycache__/
 
 ---
 
-🧾 9. Presentation Summary
+9. Presentation Summary
 
 1. Introduction: EEG-based imagined speech decoding.
 2. Dataset: EEG signals segmented into 39×256 frames.
@@ -262,7 +262,7 @@ __pycache__/
 
 ---
 
-🧩 Author
+Author
 
 Developed by Abhay Garg
 B.Tech CSE – AI/ML Specialization
